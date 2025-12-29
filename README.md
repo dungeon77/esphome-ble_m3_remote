@@ -39,7 +39,11 @@ ble_client:
 
 # Наш компонент
 external_components:
-  - source: github://dungeon77/esphome-ble_m3_remote
+  - source:
+      type: git
+      url: https://github.com/dungeon77/esphome-ble_m3_remote
+      ref: main
+    components: [ ble_m3_remote ]
 
 ble_m3_remote:
   ble_client_id: m3_ble_client
