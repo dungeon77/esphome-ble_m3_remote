@@ -1,0 +1,8 @@
+{
+"name": "BLE M3 Remote",
+"version": "1.0.0",
+"codeowners": ["@dungeon77"],
+"documentation": "README.md",
+"requirements": [],
+"dependencies": ["esp32_ble_tracker", "ble_client"]
+}
